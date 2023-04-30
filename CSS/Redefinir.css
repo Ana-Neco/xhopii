@@ -1,0 +1,125 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
+}
+
+/* Navegação */
+nav 
+{
+    background: rgb(230, 230, 230);
+}
+
+nav img
+{
+    width: 70px;
+}
+
+nav .logo
+{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo h1
+{
+    color: #F7472E;
+    font-size: 25px;
+}
+
+nav .logo p
+{
+    font-size: 25px;
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+
+nav .navigation
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .navigation a
+{
+    text-decoration: none;
+    color: #F7472E;
+    font-weight: bold;
+}
+
+/* Redefinir */
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+form
+{
+    width: 500px;
+    height: 270px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    box-shadow: 0 0 10px gray;
+    
+}
+
+form h1
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form .botao {
+    font-weight: bold;
+    background-color: #F7472E;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+form a:hover
+{
+    opacity: 0.9;
+}
+
+form img
+{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+form input
+{
+    margin-bottom: 40px;
+    padding: 8px 20px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+

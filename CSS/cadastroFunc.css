@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;  
+    font-family: Helvetica, sans-serif;                                         
+}
+
+/* cabeçalho */
+
+
+header
+{
+    background-color: #F7462E;
+    width: 100%;
+    display: flex;
+    color: white;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header a
+{
+    text-decoration: none; 
+    color: white;
+}
+
+header .logo
+{
+    display:flex;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+header .logo img
+{
+    height: 50px;
+    width: 50px;
+}
+
+header .logo h1
+{
+    color: white;
+    font-size: 40px;
+}
+
+/* barra de navegação */
+
+.navegacao
+{
+    background-color: #FE6132;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacao ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao ul a
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navegacao ul a:hover
+{
+    color: rgb(5, 5, 5);
+    transition: 0.5s;
+}
+
+/* conteudo da loja */
+
+body
+{
+    background-color: silver;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 300px;
+    width: 100%;
+    height: 100vh;
+}
+
+form
+{
+    width: 600px;
+    height: 850px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+form input[type=date]
+{
+    padding: 13px 10px;
+}
+form input[type=file]
+{
+    display: none;
+}
+
+label
+{
+    padding: 10px 10px;
+    width: 200px;
+    color: #F7462E;
+    border: 1px solid #F7462E;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+form h1
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #F7462E;
+}
+
+form h3
+{
+
+    color: #F7462E;
+    margin-bottom: 20px;
+}
+
+form button
+{
+    font-weight: bold;
+    background-color: #F7472E;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+form button:hover
+{
+    opacity: 0.9;
+}
+
+form input
+{
+    margin-bottom: 30px;
+    padding: 8px 20px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 350px;
+}
+
+
+

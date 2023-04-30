@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Xhopee</title>
+</head>
+<body>
+    
+    <header>
+        <img src="img/logo.png">
+        <h1>Xhopii</h1>
+    </header>
+    <nav class="menu-horizontal">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="cadastrarCliente.html">Cadastro Cliente</a></li>
+            <li><a href="CadastrarFuncionario.html">Cadastro Funcionário</a></li>
+            <li><a href="cadastroProduto.html">Cadastro Produto</a></li>
+            <li><a href="#">Ver Clientes</a></li>
+            <li><a href="#">Ver Funcionários</a></li>
+            <li><a href="VerProdutos.html">Ver Produtos</a></li>
+        </ul>
+    </nav>
+    <div class="produto-imagem">
+        <div class="produto-miniatura">
+            <img id="Preto" src="img/produto1.png" onclick="MudarImg(this)" >
+            <img id="Azul"  src="img/produto2.png" onclick="MudarImg(this)">
+            <img id="Verde"  src="img/produto3.png" onclick="MudarImg(this)">
+            <img id="Cinza"  src="img/produto4.png" onclick="MudarImg(this)">
+            <img id="Rosa"  src="img/produto5.png" onclick="MudarImg(this)">
+        </div>
+        <div class="produto-principal">
+            <img id="imgPrincipal" src="img/produto1.png"> 
+        </div>
+    </div>
+
+    <div class="produto-detalhes">
+        <h1>Camisa Desenvolvedor Front-End CSS</h1>
+        <h2 id="precoProduto">R$56,90</h2>
+        <p id="qtdDisponivel" >171 peças dísponíveis</p>
+        <p>Modelos:</p>
+        <button class="botao" id="Preto" onclick="MudarInfo('Preto')">Preto</button>
+        <button class="botao" id="Azul" onclick="MudarInfo('Azul')">Azul</button>
+        <button class="botao" id="Verde" onclick="MudarInfo('Verde')">Verde</button>
+        <button class="botao" id="Cinza" onclick="MudarInfo('Cinza')">Cinza</button>
+        <button class="botao" id="Rosa" onclick="MudarInfo('Rosa')">Rosa</button>
+
+        <p>Tamanhos:</p>
+        <button class="botao" id="btnTamanhoP" onclick="MudarTamanho(this)">P</button>
+        <button class="botao" id="btnTamanhoM" onclick="MudarTamanho(this)">M</button>
+        <button class="botao" id="btnTamanhoG" onclick="MudarTamanho(this)">G</button>
+        <button class="botao" id="btnTamanhoGG" onclick="MudarTamanho(this)">GG</button>
+        <p id="tamanhoSelecionado" >Tamanho Selecionado: P</p>
+        <button id="botaoComprar">Comprar Agora</button>
+    </div>
+    
+</body>
+</html>

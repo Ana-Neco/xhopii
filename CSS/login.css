@@ -1,0 +1,195 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
+}
+
+/* Navegação */
+nav 
+{
+    background: rgb(230, 230, 230);
+}
+
+nav img
+{
+    width: 70px;
+}
+
+nav .logo
+{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo h1
+{
+    color: #F7472E;
+    font-size: 25px;
+}
+
+nav .logo p
+{
+    font-size: 25px;
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+
+nav .navigation
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .navigation a
+{
+    text-decoration: none;
+    color: #F7472E;
+    font-weight: bold;
+}
+
+/* Login */
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #F7472E;
+}
+
+form
+{
+    width: 400px;
+    height: 480px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    
+}
+
+form h1
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form .botao {
+    font-weight: bold;
+    background-color: #F7472E;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+form a:hover
+{
+    opacity: 0.9;
+}
+
+form input
+{
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+form .links
+{
+    display: flex;
+    justify-content:space-between;
+    font-size: 12px;
+}
+
+form .linha 
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form .linha hr
+{
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+form a
+{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+form .social-medias img
+{
+    width: 20px;
+}
+
+form .social-medias
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+form .social-medias .redes
+{
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+form .social-medias .redes a
+{
+    margin-left: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+form .cadastro
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form .cadastro a
+{
+    margin-left: 10px;
+    color: #F7472E;
+}
+
+form a:hover 
+{
+    opacity: 0.8;
+}
+
+
+
